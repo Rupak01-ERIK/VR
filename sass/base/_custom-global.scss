@@ -1,0 +1,51 @@
+//btn
+.btn-primary {
+  background-color: $primary;
+  border-radius: 50px;
+  padding: 0.625rem 1.125rem !important;
+  font-family: $font-primary-600 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  letter-spacing: -0.5px !important;
+  color: $white !important;
+}
+
+.signup-twitter-btn {
+  background-color: #58585866;
+  border: 1px solid #5a5a5a;
+  width: 100%;
+  border-radius: 50px;
+  padding: 1rem 0;
+  font-family: $font-primary-600;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #a1a1a1;
+  display: block;
+  text-align: center;
+}
+
+//form-title-wrapper
+.form-title-wrapper {
+  margin-bottom: 3.25rem;
+  .icon-wrapper {
+    margin-bottom: 1.5rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-primary-600;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 2.375rem;
+    letter-spacing: -0.800000011920929px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+  }
+}

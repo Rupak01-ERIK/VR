@@ -1,0 +1,54 @@
+// header
+header {
+  background-color: transparent;
+  nav {
+    padding: 1.75rem 0 !important;
+    .navbar-brand {
+      font-family: $font-primary-700;
+      color: $white;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.5px;
+      padding: 0;
+      &:hover {
+        color: unset;
+      }
+    }
+    .navbar-nav {
+      li {
+        margin-right: 2rem;
+        &:last-child {
+          margin-right: 0;
+        }
+        .dropdown-toggle::after {
+          content: "";
+          border: none;
+          background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%23898989' stroke-width='1.66667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+          display: block;
+          height: 1.25rem;
+          width: 1.25rem;
+          object-fit: contain;
+        }
+        a {
+          font-family: $font-primary-500;
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.5px;
+          text-align: left;
+          color: $secondary;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          &.active {
+            color: $primary !important;
+          }
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

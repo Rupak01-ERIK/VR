@@ -1,0 +1,67 @@
+$theme-colors: (
+  "primary": #f95611,
+  "secondary": #b3b3b3,
+  "dark": #000000,
+  "light": #f6f8f9,
+);
+
+//colors
+$primary: #f95611;
+$secondary: #b3b3b3;
+$black: #000;
+$white: #fff;
+$grey: rgba(18, 17, 39, 0.56);
+$text-dark: #242424;
+$text-dark-light: #545454;
+
+@font-face {
+  font-family: "gilroy-300";
+  src: url("../fonts/Gilroy-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-400";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-500";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-600";
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-700";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-800";
+  src: url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-900";
+  src: url("../fonts/Gilroy-Heavy.ttf") format("truetype");
+}
+
+$font-primary-300: "gilroy-300";
+$font-primary-400: "gilroy-400";
+$font-primary-500: "gilroy-500";
+$font-primary-600: "gilroy-600";
+$font-primary-700: "gilroy-700";
+$font-primary-800: "gilroy-800";
+$font-primary-900: "gilroy-900";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "pages/index";
+@import "base/base";
+@import "base/mixins";
+@import "base/header";
+@import "base/footer";
+@import "base/custom-global";
+@import "component/card.scss";
