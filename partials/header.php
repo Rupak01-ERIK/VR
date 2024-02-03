@@ -22,7 +22,7 @@ $page = end($link_array);
 <body>
     <img src="assets/img/bodybackground.png" class="body-background" alt="background_body">
     <img src="assets/img/background-pattern.svg" class="background-pattern" alt="background_body_pattern">
-
+    
     <header>
         <div class="container">
             <div class="row">
